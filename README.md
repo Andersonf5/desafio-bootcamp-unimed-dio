@@ -1,2 +1,2 @@
-# desafio-bootcamp-unimed-dio
-Desafio de projeto sobre Git para Git Hub
+# Desafio-bootcamp-Unimed-dio
+Desafio de projeto sobre Git/Git Hub
