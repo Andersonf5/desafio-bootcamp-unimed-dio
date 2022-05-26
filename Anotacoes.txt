@@ -1,0 +1,7 @@
+Anotações do curso:
+
+Ambientação VS Code
+
+Extensões para VS code: 
+HTML Snippets (Flexbox em CSS)
+HTML preview (Flexbox em CSS)
