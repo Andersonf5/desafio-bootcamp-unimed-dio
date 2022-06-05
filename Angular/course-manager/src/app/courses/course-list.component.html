@@ -1,0 +1,35 @@
+
+
+<div class="container">
+    <h2> Lista de cursos</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Código</th>
+                <th>Data de lançamento</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let courses of courses">
+                <td><img [src]="courses.imageUrl" width="40" height="40"></td> <!-- [src] colocado entre colchetes para sinalizar ao angular que é para mesclar o valor com a tag html -->
+                <td>{{courses.name}}</td>
+                <td>{{courses.price}}</td>
+                <td>{{courses.code}}</td>
+                <td>{{courses.realeaseDate}}</td>
+                <td>{{courses.rating}}</td>
+                
+            </tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+
+
+
