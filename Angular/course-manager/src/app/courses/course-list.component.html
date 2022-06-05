@@ -12,6 +12,7 @@
                 <th>Código</th>
                 <th>Data de lançamento</th>
                 <th>Nota</th>
+                <th>Opções</th>
             </tr>
         </thead>
         <tbody>
@@ -21,7 +22,10 @@
                 <td>{{courses.price}}</td>
                 <td>{{courses.code}}</td>
                 <td>{{courses.realeaseDate}}</td>
-                <td>{{courses.rating}}</td>
+                <td>
+                    <app-star [rating]="courses.rating"></app-star> 
+                </td>
+                <td>{{courses.opicoes}}</td>
                 
             </tr>
 
