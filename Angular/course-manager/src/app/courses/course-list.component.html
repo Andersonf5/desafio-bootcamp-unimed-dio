@@ -1,8 +1,16 @@
-
-
 <div class="container">
     <h2> Lista de cursos</h2>
 
+<div class="form-group row">
+
+    <label class="col-sm-2 col-form-label"><h5>Filtrar por:</h5></label>
+
+    <div class="col-sm-10">
+        <input [(ngModel)]="filter" class="form-control">
+    </div>
+
+</div>    
+    
     <table class="table table-striped">
         <thead>
             <tr>
@@ -16,22 +24,27 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let courses of courses">
+            <tr *ngFor="let courses of filteredCourses">
                 <td><img [src]="courses.imageUrl" width="40" height="40"></td> <!-- [src] colocado entre colchetes para sinalizar ao angular que é para mesclar o valor com a tag html -->
                 <td>{{courses.name}}</td>
                 <td>{{courses.price}}</td>
-                <td>{{courses.code}}</td>
-                <td>{{courses.realeaseDate}}</td>
+                <td>{{courses.code |replace: "-" : " "}}</td>
+                <td>{{courses.releaseDate| date:'MM/dd/yyyy'}}</td>
                 <td>
                     <app-star [rating]="courses.rating"></app-star> 
                 </td>
-                <td>{{courses.opicoes}}</td>
+                <td>
+                    <a [routerLink]='["/Courses/info" , courses.id]' class="btn btn-primary">Editar</a> <!-- Router link espera um array
+                    vai entrar em uma rota cahamada courses/info e espera um path variable na url -->
+                </td>
+                
+                
                 
             </tr>
 
         </tbody>
     </table>
-
+    
 </div>
 
 

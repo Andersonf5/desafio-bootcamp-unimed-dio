@@ -1,0 +1,58 @@
+<h2>Informações do curso</h2>
+
+<hr>
+
+<form #courseForm="ngForm">
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label"><h5>Nome do curso:</h5></label>
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.name" required name ="name" #courseName="ngModel" [ngClass]="{'is-invalid': courseName.invalid}" class="form-control"> 
+                    <!-- o # indica uma variável de template, o atributo [ngClass] adiciona uma classe dinamicamente de acordo com uma condição
+                    e a sintaxe e [ngClass]="{'classe': condição para aplicação da classe}" -->
+                    <div class="invalid-feedback">
+                        <Span>O nome do curso é obrigatório! </Span>
+                    </div>     
+         </div>   
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label"><h5>Preço:</h5></label>
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.price" required name ="price" #coursePrice="ngModel" [ngClass]="{'is-invalid': coursePrice.invalid}" 
+            class="form-control"> 
+                    <div class="invalid-feedback">
+                        <Span>O preço do curso é obrigatório! </Span>
+                    </div>     
+         </div>   
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label"><h5>Nota do Curso:</h5></label>
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.rating" required name ="rating" #courseRating="ngModel" [ngClass]="{'is-invalid': courseRating.invalid}" 
+            class="form-control"> 
+                    <div class="invalid-feedback">
+                        <Span>A nota do curso é obrigatório! </Span>
+                    </div>     
+         </div>   
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label"><h5>Descrição do Curso:</h5></label>
+        <div class="col-sm-10">
+                     <textarea [(ngModel)]="course.description" required name ="description" #courseDescription="ngModel" 
+                     [ngClass]="{'is-invalid': courseDescription.invalid}" class="form-control">
+                    </textarea> 
+
+                    <div class="invalid-feedback">
+                        <Span>A descrição do curso é obrigatório! </Span>
+                    </div>     
+        </div>   
+    </div>
+    
+    <button [disabled]="courseForm.invalid" (click)="save()" class="btn btn-primary" style="margin-right:10px;">Salvar</button>
+
+    <!-- [disabled] esta entre colchetes para fazer referencia a uma váriavel de template e é uma propriedade de 
+        template que avaliação um estado e desabilita algo --> 
+    <button [routerLink]="['/Courses']" class="btn btn-secondary ">Voltar</button>
+</form>
