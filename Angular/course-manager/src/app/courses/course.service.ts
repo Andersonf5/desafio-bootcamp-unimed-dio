@@ -1,11 +1,18 @@
+import { HttpClientModule } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Course } from "./course";
+
 
 
 @Injectable({   /* elegivel para injetar dependencias */ 
     providedIn: 'root',    /* será carregado na raiz no momento da inicialização, ficando disponivel em qualquer parte do código */
 })
 export class CourseService {
+
+
+    
+constructor (private httpClientModule: HttpClientModule){}
+    
     
 retrieveAll(): Course[] {  /* metodo utilizado para injetar as dependencias */
     return COURSES;
