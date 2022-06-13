@@ -1,5 +1,6 @@
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
+import { Observable } from "rxjs";
 import { Course } from "./course";
 
 
@@ -9,13 +10,16 @@ import { Course } from "./course";
 })
 export class CourseService {
 
-
+private courseUrl:string = 'http://localhost:3100/api/courses'; 
     
-constructor (private httpClientModule: HttpClientModule){}
+constructor (private httpClient: HttpClient){
+    
+}
     
     
-retrieveAll(): Course[] {  /* metodo utilizado para injetar as dependencias */
-    return COURSES;
+retrieveAll(): Observable <Course[]> {  /* metodo utilizado para injetar as dependencias */
+    //return COURSES;
+     return this.httpClient.get<Course[]>(this.courseUrl)
 }
 
 save(course:Course):void{

@@ -15,13 +15,23 @@ export class CourseListComponent implements OnInit{
     _filterBy:string = '';
 
 
-    constructor(private CourseServise: CourseService){ }; /* metodo utilizado pelo angular para adicionar dependencias, faz referencia ao mesmo objeto */
+    constructor(private CourseService: CourseService){ }; /* metodo utilizado pelo angular para adicionar dependencias, faz referencia ao mesmo objeto */
 
     ngOnInit(): void {
-        this._courses=this.CourseServise.retrieveAll();
-        this.filteredCourses = this._courses
+       this.retrieveAll();
 
        }
+
+    retrieveAll(): void{
+        this.CourseService.retrieveAll().subscribe({
+            next: courses =>{
+                this._courses= courses;
+                this.filteredCourses = this._courses
+            },
+        error: err => console.log('Error', err)   
+        });
+        
+    }   
 
        set filter(value:string) { /* Criar evento de saída */
             this._filterBy=value;
