@@ -22,15 +22,21 @@ retrieveAll(): Observable <Course[]> {  /* metodo utilizado para injetar as depe
      return this.httpClient.get<Course[]>(this.courseUrl)
 }
 
-save(course:Course):void{
+retrieveById(id:number): Observable<Course> {
+    return this.httpClient.get<Course>(`${this.courseUrl}/${id}`)
+    //return COURSES.find((courseInterator:Course)=> courseInterator.id === id);
+}
+
+save (course:Course): Observable<Course> {
     if(course.id){
-        const index = COURSES.findIndex((courseInterator:Course)=> courseInterator.id === course.id)
-        COURSES[index]=course;
+        return this.httpClient.put<Course> (`${this.courseUrl}/${course.id}`, course);
+    } else{
+        return this.httpClient.post<Course> (`${this.courseUrl}`, course);
     }
 }
 
-retrieveById(id:number) {
-    return COURSES.find((courseInterator:Course)=> courseInterator.id === id);
+deleteById(id: number): Observable<any> {
+    return this.httpClient.delete<any>(`${this.courseUrl}/${id}`);
 }
     
 }
@@ -88,7 +94,7 @@ var COURSES: Course[] = [
         duration: 80,
         code: 'PWY-9381',
         rating: 5,
-        price: 56.99,
+        price: 58.99,
         imageUrl: '/assets/imagens/animations.png',
     }
 ];

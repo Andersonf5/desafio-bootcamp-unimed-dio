@@ -14,7 +14,7 @@
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Imagem</th>
+                <th>Imagen</th>
                 <th>Nome</th>
                 <th>Preço</th>
                 <th>Código</th>
@@ -34,9 +34,12 @@
                     <app-star [rating]="courses.rating"></app-star> 
                 </td>
                 <td>
-                    <a [routerLink]='["/Courses/info" , courses.id]' class="btn btn-primary">Editar</a> <!-- Router link espera um array
-                    vai entrar em uma rota cahamada courses/info e espera um path variable na url -->
+                    <a [routerLink]='["/Courses/info" , courses.id]' class="btn btn-primary mr-2">Editar</a> <!-- Router link espera um array
+                    vai entrar em uma rota chamada courses/info e espera um path variable na url -->
+                    <button (click)="deleteById(courses.id)" class="btn btn-danger" style="margin: 8px" >Deletar</button>
                 </td>
+              
+                
                 
                 
                 

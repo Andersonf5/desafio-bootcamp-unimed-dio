@@ -16,12 +16,19 @@ export class CourseInfoComponent implements OnInit{
     componente que contem as rotas ativas */
 
     ngOnInit(): void {
-        this.course = this.courseService.retrieveById(Number(this.activatedRoute.snapshot.paramMap.get('id')));  /* traz o valor do parametro setado 
+        this.courseService.retrieveById(Number(this.activatedRoute.snapshot.paramMap.get('id'))).subscribe({
+            next: course => this.course = course,
+            error: err => console.log('Error', err)
+        });  /* traz o valor do parametro setado 
                                                                                 para a rota ativa e converte para o tipo number */
     }
 
     save():void{
-        this.courseService.save(this.course);
+        this.courseService.save(this.course).subscribe({
+            next: course => console.log('Salvo com sucesso', course),
+            error: err => console.log('Error', err)
+
+        });
     }
 
 

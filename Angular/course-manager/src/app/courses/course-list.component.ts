@@ -31,7 +31,17 @@ export class CourseListComponent implements OnInit{
         error: err => console.log('Error', err)   
         });
         
-    }   
+    }  
+    
+    deleteById(courseId: number): void{
+        this.CourseService.deleteById(courseId).subscribe({
+            next: ()=>{
+                console.log('Deletado com sucesso!');
+                this.retrieveAll();
+            },
+            error: err => console.log('Error', err)
+        })
+    }
 
        set filter(value:string) { /* Criar evento de saída */
             this._filterBy=value;
