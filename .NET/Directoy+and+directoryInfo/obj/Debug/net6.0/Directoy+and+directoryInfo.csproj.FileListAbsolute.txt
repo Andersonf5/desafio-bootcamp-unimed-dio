@@ -1,0 +1,15 @@
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\bin\Debug\net6.0\Directoy+and+directoryInfo.exe
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\bin\Debug\net6.0\Directoy+and+directoryInfo.deps.json
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\bin\Debug\net6.0\Directoy+and+directoryInfo.runtimeconfig.json
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\bin\Debug\net6.0\Directoy+and+directoryInfo.dll
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\bin\Debug\net6.0\Directoy+and+directoryInfo.pdb
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\Directoy+and+directoryInfo.csproj.AssemblyReference.cache
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\Directoy+and+directoryInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\Directoy+and+directoryInfo.AssemblyInfoInputs.cache
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\Directoy+and+directoryInfo.AssemblyInfo.cs
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\Directoy+and+directoryInfo.csproj.CoreCompileInputs.cache
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\Directoy+and+directoryInfo.dll
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\refint\Directoy+and+directoryInfo.dll
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\Directoy+and+directoryInfo.pdb
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\Directoy+and+directoryInfo.genruntimeconfig.cache
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\Directoy+and+directoryInfo\obj\Debug\net6.0\ref\Directoy+and+directoryInfo.dll

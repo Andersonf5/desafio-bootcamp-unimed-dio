@@ -1,0 +1,15 @@
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\bin\Debug\net6.0\File_and_fileInfo.exe
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\bin\Debug\net6.0\File_and_fileInfo.deps.json
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\bin\Debug\net6.0\File_and_fileInfo.runtimeconfig.json
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\bin\Debug\net6.0\File_and_fileInfo.dll
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\bin\Debug\net6.0\File_and_fileInfo.pdb
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\File_and_fileInfo.csproj.AssemblyReference.cache
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\File_and_fileInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\File_and_fileInfo.AssemblyInfoInputs.cache
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\File_and_fileInfo.AssemblyInfo.cs
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\File_and_fileInfo.csproj.CoreCompileInputs.cache
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\File_and_fileInfo.dll
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\refint\File_and_fileInfo.dll
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\File_and_fileInfo.pdb
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\File_and_fileInfo.genruntimeconfig.cache
+C:\Users\ander\OneDrive\Área de Trabalho\Bootcamp\desafio-bootcamp-unimed-dio\.NET\File_and_fileInfo\obj\Debug\net6.0\ref\File_and_fileInfo.dll
